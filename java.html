@@ -1,0 +1,68 @@
+
+<html>
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<STYLE TYPE="text/css">
+ 
+#canvas {
+	cursor: pointer;
+	float: left;
+	border: 1;
+}
+#canvas:active {
+	cursor: crosshair;
+}
+
+#controls {
+	min-width: 200px;
+	float: left;
+	border: 1;
+}
+
+
+</STYLE>
+
+
+</head>
+
+
+<body>
+
+<div id="controls">
+
+	<input type="button" id="addAnimal" name="addAnimal" value="Add Animal" onclick="addAnimal()">
+	<input type="button" id="addFood" name="addFood" value="Add Food" onclick="addFood()">
+
+<div>
+	
+<center>
+	<!--<canvas id="canvas" onmousemove=Animal.animalInfo(event); style="background-color: #ffffff;">-->
+    <canvas id="canvas" onmousemove=getMouseCoordinates(event); style="background-color: #ffffff;">
+	Not supported
+	</canvas>
+	
+	<div id="game info">
+	
+	
+	</div>
+	
+	
+	<div id="gameInfo"></div>
+	<div id="gameInfo1"></div>
+	<div id="gameInfo2"></div>
+	<div id="gameInfo3"></div>
+	<div id="gameInfo4"></div>
+    <div id="gameInfo7"></div>
+    <div id="gameInfo8"></div>
+	
+	
+	
+</center>
+	
+
+	
+<script src="javascript.js"></script>
+
+</body>
+</html>
